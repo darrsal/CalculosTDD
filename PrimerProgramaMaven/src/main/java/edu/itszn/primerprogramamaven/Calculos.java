@@ -16,7 +16,7 @@ public class Calculos {
             x = y;
             y = temp;
         }
-        int suma = 1;
+        int suma = 0;
         for (int i = x; i <= y; i++) {
             suma = suma + i;
         }
