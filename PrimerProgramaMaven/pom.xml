@@ -4,14 +4,6 @@
     <groupId>edu.itszn</groupId>
     <artifactId>PrimerProgramaMaven</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <configuration>
-                <archive>
-                    <manifest>
-                        <addClasspath>true</addClasspath>
-                        <mainClass>edu.itszn.primerprogramamaven.App</mainClass>
-                    </manifest>
-                </archive>
-            </configuration>
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
