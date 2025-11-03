@@ -11,10 +11,10 @@ public class Calculos {
      * @return sumatoria
      */
     int sumarSerie(int x, int y) {
-        error;
+        
         if (x > y) {
             int temp = x;
-            x = y;
+            //x = y;
             y = temp;
         }
         int suma = 0;
