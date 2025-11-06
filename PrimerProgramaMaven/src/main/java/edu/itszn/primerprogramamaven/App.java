@@ -17,6 +17,7 @@ public class App {
         System.out.println("Absoluto de -3 " + mCal.absoluto(-3));
         
         System.out.println("Vocales de 'murcielago' " + mCal.vocales("murcielago"));
+        
         System.out.println("Invertir de 'hola mundo' " + mCal.invertir("hola mundo"));
         
     }
