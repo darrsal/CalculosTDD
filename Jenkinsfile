@@ -12,13 +12,12 @@ pipeline{
 	stages{
         stage('Descargar repositorio') { 
             steps {
-                sh 'rm -rf CalculosTDD'
-                sh 'git clone --single-branch --branch main https://github.com/darrsal/CalculosTDD.git'
+				git url: 'https://github.com/darrsal/CalculosTDD.git', branch: 'main'
             }
         }
         stage('Build') {
             steps {
-                sh 'mvn -f $POMpath  -B -DskipTests clean package'
+                sh 'mvn -f $POMpath  -B clean package'
             }
         }
         stage('Test') {
