@@ -7,7 +7,7 @@ pipeline{
       githubPush()
    }
    environment{
-        POM="./PrimerProgramaMaven/pom.xml"
+        POM="PrimerProgramaMaven/pom.xml"
    }
    stages{
       stage('Descarga'){
